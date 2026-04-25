@@ -12,14 +12,17 @@
     <link rel="stylesheet" href="./assets/css/main.3067b608.chunk.css">
     <link rel="stylesheet" href="./styles.css">
   </head>
-  <body>
+  <body class="mockup-body">
     <div class="landing-page w-full overflow-x-hidden bg-transparent">
       <main class="m-0 p-0">
         <section
-          class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl relative w-full min-h-screen flex flex-col"
+          class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl mockup-hero relative w-full min-h-screen flex flex-col"
           style="background-image: url('./assets/media/hero-image.e00add7b.webp'); border-radius: 0; background-size: cover; background-position: center center; background-repeat: no-repeat; opacity: 1; transform: none;"
         >
-          <div class="max-w-6xl mx-auto px-6 md:px-8 py-6 flex items-center justify-between z-10 w-full">
+          <div class="mockup-hero-overlay" aria-hidden="true"></div>
+          <div class="mockup-orb mockup-orb-one" aria-hidden="true"></div>
+          <div class="mockup-orb mockup-orb-two" aria-hidden="true"></div>
+          <div class="max-w-6xl mx-auto px-6 md:px-8 py-6 flex items-center justify-between z-10 w-full mockup-nav-shell" data-reveal>
             <a class="flex items-center" href="./index.html">
               <img
                 src="./assets/media/mashoorah-logo-white.7ce4ca0e.svg"
@@ -61,9 +64,10 @@
             <button type="button">Request a demo</button>
           </div>
 
-          <div class="relative max-w-6xl mx-auto px-6 md:px-8 w-full grid grid-cols-1 md:grid-cols-2 gap-12 z-0 mt-20">
-            <div class="flex flex-col justify-center">
-              <div class="Knack_bdwYbBQi Knack_nwWvy3Yw Knack_RgxGJoFb Knack_Kw--44XF text-white">
+          <div class="relative max-w-6xl mx-auto px-6 md:px-8 w-full grid grid-cols-1 md:grid-cols-2 gap-12 z-0 mt-20 mockup-hero-grid">
+            <div class="flex flex-col justify-center" data-reveal>
+              <div class="Knack_bdwYbBQi Knack_nwWvy3Yw Knack_RgxGJoFb Knack_Kw--44XF text-white mockup-hero-copy">
+                <div class="mockup-eyebrow">Executive Coaching Platform</div>
                 <h1
                   class="Knack_IFllW4Hn Knack_-lILIABX Knack_UZQmQ1c6 text-4xl md:text-6xl leading-tight"
                   style="font-family: PlayfairDisplay; font-style: normal; font-weight: 300;"
@@ -73,19 +77,37 @@
                 <p class="Knack_mX7OO8UO Knack_UZQmQ1c6 text-base font-medium md:text-xl text-white/90 max-w-lg">
                   Scalable coaching and mentorship programs designed to develop talent, enhance performance, and deliver measurable business impact.
                 </p>
-                <div class="mt-8 flex gap-4">
+                <div class="mt-8 flex gap-4 flex-wrap">
                   <button
-                    class="Knack_lsFSPB1r Knack_1EnFwjp8 Knack_mKxHLGdQ Knack_DoDoLEQN"
+                    class="Knack_lsFSPB1r Knack_1EnFwjp8 Knack_mKxHLGdQ Knack_DoDoLEQN mockup-primary-cta"
                     type="button"
                     style="background-color: rgb(237, 127, 61); color: white; border-radius: 9999px; transition: background-color 0.3s; font-weight: 600;"
                   >
                     Get started
                   </button>
+                  <button class="mockup-secondary-cta" type="button" data-scroll-target="#about-section">
+                    Explore platform
+                  </button>
+                </div>
+                <div class="mockup-hero-metrics" data-reveal>
+                  <div class="mockup-stat-card">
+                    <span class="mockup-stat-value">1:1</span>
+                    <span class="mockup-stat-label">Coaching at scale</span>
+                  </div>
+                  <div class="mockup-stat-card">
+                    <span class="mockup-stat-value">ROI</span>
+                    <span class="mockup-stat-label">Measurable impact</span>
+                  </div>
+                  <div class="mockup-stat-card">
+                    <span class="mockup-stat-value">MENA</span>
+                    <span class="mockup-stat-label">Regional expertise</span>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="w-80 md:w-96 h-[46rem] md:h-[50rem] rounded-5rem shadow-lg overflow-hidden mx-auto border border-white">
+            <div class="w-80 md:w-96 h-[46rem] md:h-[50rem] rounded-5rem shadow-lg overflow-hidden mx-auto border border-white mockup-device-shell" data-reveal>
+              <div class="mockup-floating-badge">Trusted growth journeys</div>
               <img
                 src="./assets/media/dummy-video.37cd1f6a.webp"
                 alt="Platform mockup"
@@ -95,10 +117,13 @@
           </div>
         </section>
 
-        <div class="w-full py-16 px-6 md:px-0" style="background-color: rgb(252, 234, 224);">
+        <div class="w-full py-16 px-6 md:px-0 mockup-section-shell" style="background-color: rgb(252, 234, 224);" data-reveal>
           <div class="max-w-6xl mx-auto px-6 md:px-8 relative">
-            <div class="flex items-start justify-between gap-4 cursor-pointer select-none pb-5" style="border-bottom: 1px solid rgb(237, 127, 61);">
-              <h2 id="about-section" class="text-black text-2xl md:text-3xl lg:text-4xl font-bold text-left">More than a platform. A partner in growth.</h2>
+            <div class="flex items-start justify-between gap-4 cursor-pointer select-none pb-5 mockup-section-heading" style="border-bottom: 1px solid rgb(237, 127, 61);">
+              <div>
+                <div class="mockup-section-kicker">Why Mashoorah</div>
+                <h2 id="about-section" class="text-black text-2xl md:text-3xl lg:text-4xl font-bold text-left">More than a platform. A partner in growth.</h2>
+              </div>
               <button aria-label="Open" class="mt-1 p-1" type="button">
                 <svg class="md:w-6 md:h-6 w-16" fill="none" stroke="#ed7f3d" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -109,34 +134,35 @@
         </div>
 
         <div
-          class="w-full text-white py-16 md:py-20 bg-cover bg-center bg-no-repeat"
+          class="w-full text-white py-16 md:py-20 bg-cover bg-center bg-no-repeat mockup-spotlight"
           style="background-image: url('./assets/media/unlock-potential-banner.f0912543.webp');"
         >
           <div class="bg-black/60 w-full py-16 md:py-20">
             <div class="max-w-6xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div class="flex flex-col justify-center h-full min-h-[400px]">
+              <div class="flex flex-col justify-center h-full min-h-[400px]" data-reveal>
+                <div class="mockup-section-kicker mockup-section-kicker-light">Outcomes</div>
                 <h2 class="text-white text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-center lg:text-left">Unlock potential.<br>Drive performance.</h2>
               </div>
-              <div class="grid grid-cols-2 border-gray-700/50">
-                <div class="flex flex-col p-6 h-full bg-black/40 border-r border-b">
+              <div class="grid grid-cols-2 border-gray-700/50 mockup-outcome-grid" data-reveal>
+                <div class="flex flex-col p-6 h-full bg-black/40 border-r border-b mockup-outcome-card">
                   <h3 class="text-white whitespace-pre-line text-lg md:text-xl mb-2 lg:mb-3 leading-snug" style="font-family: PlayfairDisplay; font-weight: 300;">Enable
 organizational
 growth</h3>
                   <p class="text-gray-200 text-sm lg:text-base">Help companies launch, manage, and scale internal or external development programs aligned with business goals.</p>
                 </div>
-                <div class="flex flex-col p-6 h-full bg-black/40 border-b">
+                <div class="flex flex-col p-6 h-full bg-black/40 border-b mockup-outcome-card">
                   <h3 class="text-white whitespace-pre-line text-lg md:text-xl mb-2 lg:mb-3 leading-snug" style="font-family: PlayfairDisplay; font-weight: 300;">Assess
 and develop
 talent</h3>
                   <p class="text-gray-200 text-sm lg:text-base">Provide tools and insights to evaluate employee capabilities, identify skill gaps, and guide professional growth.</p>
                 </div>
-                <div class="flex flex-col p-6 h-full bg-black/40 border-r">
+                <div class="flex flex-col p-6 h-full bg-black/40 border-r mockup-outcome-card">
                   <h3 class="text-white whitespace-pre-line text-lg md:text-xl mb-2 lg:mb-3 leading-snug" style="font-family: PlayfairDisplay; font-weight: 300;">Bridge local
 and global
 standards</h3>
                   <p class="text-gray-200 text-sm lg:text-base">Combine Saudi-rooted cultural understanding with global best practices in coaching and talent development.</p>
                 </div>
-                <div class="flex flex-col p-6 h-full bg-black/40">
+                <div class="flex flex-col p-6 h-full bg-black/40 mockup-outcome-card">
                   <h3 class="text-white whitespace-pre-line text-lg md:text-xl mb-2 lg:mb-3 leading-snug" style="font-family: PlayfairDisplay; font-weight: 300;">Support
 inclusive
 development</h3>
@@ -148,74 +174,80 @@ development</h3>
         </div>
 
         <div
-          class="w-full py-20 px-6 md:px-0 bg-cover bg-center bg-no-repeat bg-fixed"
+          class="w-full py-20 px-6 md:px-0 bg-cover bg-center bg-no-repeat bg-fixed mockup-values-band"
           style="background-image: url('./assets/media/values-banner.b3f4e0cc.webp'); background-position: center center;"
+          data-reveal
         >
           <div class="max-w-6xl mx-auto px-6 md:px-8">
             <div class="flex gap-2 flex-wrap">
-              <span class="relative inline-block" style="width: 100%;"><span class="transition-colors duration-300 px-1" style="color: rgb(20, 20, 20); font-size: 2rem; font-weight: 600;">Empowerment.</span></span>
-              <span class="relative inline-block" style="width: 100%;"><span class="transition-colors duration-300 px-1" style="color: rgb(20, 20, 20); font-size: 2rem; font-weight: 600;">Impact.</span></span>
+              <span class="relative inline-block mockup-value-pill" style="width: 100%;"><span class="transition-colors duration-300 px-1" style="color: rgb(20, 20, 20); font-size: 2rem; font-weight: 600;">Empowerment.</span></span>
+              <span class="relative inline-block mockup-value-pill" style="width: 100%;"><span class="transition-colors duration-300 px-1" style="color: rgb(20, 20, 20); font-size: 2rem; font-weight: 600;">Impact.</span></span>
             </div>
             <div class="flex gap-2 flex-wrap mt-2">
-              <span class="relative inline-block" style="width: 100%;"><span class="transition-colors duration-300 px-1" style="color: rgb(20, 20, 20); font-size: 2rem; font-weight: 600;">Professionalism.</span></span>
-              <span class="relative inline-block" style="width: 100%;"><span class="transition-colors duration-300 px-1" style="color: rgb(20, 20, 20); font-size: 2rem; font-weight: 600;">Measurability.</span></span>
+              <span class="relative inline-block mockup-value-pill" style="width: 100%;"><span class="transition-colors duration-300 px-1" style="color: rgb(20, 20, 20); font-size: 2rem; font-weight: 600;">Professionalism.</span></span>
+              <span class="relative inline-block mockup-value-pill" style="width: 100%;"><span class="transition-colors duration-300 px-1" style="color: rgb(20, 20, 20); font-size: 2rem; font-weight: 600;">Measurability.</span></span>
             </div>
           </div>
         </div>
 
-        <div class="w-full grid grid-cols-1 md:grid-cols-2">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 mockup-dual-panels">
           <div
-            class="relative aspect-square flex items-center justify-center text-left"
+            class="relative aspect-square flex items-center justify-center text-left mockup-panel-tile"
             style="background-image: url('./assets/media/affordable-pricing.2d42ea7e.webp'); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 550px;"
+            data-reveal
           >
             <div class="absolute inset-0 bg-black/40"></div>
             <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-8">
+              <div class="mockup-section-kicker mockup-section-kicker-light">Mentorship</div>
               <h2 class="text-white whitespace-pre-line text-2xl md:text-3xl lg:text-4xl font-bold mb-3 leading-tight tracking-tight" style="line-height: 1.1;">Powerful mentorship
 made affordable.</h2>
             </div>
           </div>
           <div
-            class="relative aspect-square flex items-center justify-center text-left"
+            class="relative aspect-square flex items-center justify-center text-left mockup-panel-tile"
             style="background-image: url('./assets/media/analytics-darker.5ea37444.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat; min-height: 550px;"
+            data-reveal
           >
             <div class="absolute inset-0 bg-black/40"></div>
             <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-8">
+              <div class="mockup-section-kicker mockup-section-kicker-light">Insights</div>
               <h2 class="text-white whitespace-pre-line text-2xl md:text-3xl lg:text-4xl font-bold mb-3 leading-tight tracking-tight" style="line-height: 1.1;">Analytics that
 drive real growth.</h2>
             </div>
           </div>
         </div>
 
-        <div class="w-full py-20 lg:py-24" style="background-color: rgb(252, 234, 224);">
+        <div class="w-full py-20 lg:py-24 mockup-section-shell" style="background-color: rgb(252, 234, 224);">
           <div class="max-w-6xl mx-auto px-6 md:px-8">
+            <div class="mockup-section-kicker" data-reveal>Capabilities</div>
             <h2 class="text-black text-left text-2xl md:text-3xl lg:text-4xl font-bold mb-16 leading-tight" style="font-weight: 500;">Coaching and mentorship. Reinvented.</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div class="flex flex-col border border-black overflow-hidden shadow-lg">
-                <div class="p-6 md:p-8" style="background-color: rgb(20, 20, 20); font-family: PlayfairDisplay; font-weight: 300;">
+              <div class="flex flex-col border border-black overflow-hidden shadow-lg mockup-feature-card" data-reveal>
+                <div class="p-6 md:p-8 mockup-feature-card-top" style="background-color: rgb(20, 20, 20); font-family: PlayfairDisplay; font-weight: 300;">
                   <h3 class="text-white text-xl md:text-2xl leading-snug whitespace-pre-line">Intelligent
 matching</h3>
                 </div>
-                <div class="p-6 md:p-8 flex flex-col items-start gap-4">
+                <div class="p-6 md:p-8 flex flex-col items-start gap-4 mockup-feature-card-body">
                   <img src="./assets/media/intelligent-matching-icon.0c70d563.svg" alt="Intelligent matching icon" class="w-20 h-20 md:w-24 md:h-24 object-contain">
                   <p class="text-black text-sm md:text-base leading-relaxed">Offer tailored coaching experiences that address individual needs while maintaining consistency and structure across the organization.</p>
                 </div>
               </div>
-              <div class="flex flex-col border border-black overflow-hidden shadow-lg">
-                <div class="p-6 md:p-8" style="background-color: rgb(20, 20, 20); font-family: PlayfairDisplay; font-weight: 300;">
+              <div class="flex flex-col border border-black overflow-hidden shadow-lg mockup-feature-card" data-reveal>
+                <div class="p-6 md:p-8 mockup-feature-card-top" style="background-color: rgb(20, 20, 20); font-family: PlayfairDisplay; font-weight: 300;">
                   <h3 class="text-white text-xl md:text-2xl leading-snug whitespace-pre-line">Performance
 tracking</h3>
                 </div>
-                <div class="p-6 md:p-8 flex flex-col items-start gap-4">
+                <div class="p-6 md:p-8 flex flex-col items-start gap-4 mockup-feature-card-body">
                   <img src="./assets/media/performance-tracking-icon.25e7c8a0.svg" alt="Performance tracking icon" class="w-20 h-20 md:w-24 md:h-24 object-contain">
                   <p class="text-black text-sm md:text-base leading-relaxed">Monitor progress with clarity, from individual milestones to organizational impact.</p>
                 </div>
               </div>
-              <div class="flex flex-col border border-black overflow-hidden shadow-lg">
-                <div class="p-6 md:p-8" style="background-color: rgb(20, 20, 20); font-family: PlayfairDisplay; font-weight: 300;">
+              <div class="flex flex-col border border-black overflow-hidden shadow-lg mockup-feature-card" data-reveal>
+                <div class="p-6 md:p-8 mockup-feature-card-top" style="background-color: rgb(20, 20, 20); font-family: PlayfairDisplay; font-weight: 300;">
                   <h3 class="text-white text-xl md:text-2xl leading-snug whitespace-pre-line">Advanced
 analytics</h3>
                 </div>
-                <div class="p-6 md:p-8 flex flex-col items-start gap-4">
+                <div class="p-6 md:p-8 flex flex-col items-start gap-4 mockup-feature-card-body">
                   <img src="./assets/media/advanced-anaytics-icon.96ca6c75.svg" alt="Advanced analytics icon" class="w-20 h-20 md:w-24 md:h-24 object-contain">
                   <p class="text-black text-sm md:text-base leading-relaxed">Gain deep insights into skill gaps, development outcomes, and measurable ROI.</p>
                 </div>
@@ -225,28 +257,30 @@ analytics</h3>
         </div>
 
         <div
-          class="w-full relative bg-cover bg-no-repeat py-20 md:py-28 lg:py-32 bg-fixed"
+          class="w-full relative bg-cover bg-no-repeat py-20 md:py-28 lg:py-32 bg-fixed mockup-reach-band"
           style="background-image: url('./assets/media/expand-your-reach-banner.4e8d8446.webp'); background-position: center top 70%; background-size: cover; min-height: 450px;"
+          data-reveal
         >
           <div class="absolute inset-0 bg-black/40" aria-hidden="true"></div>
-          <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-8 text-left flex flex-col justify-center h-full">
+          <div class="relative z-10 max-w-6xl mx-auto px-6 md:px-8 text-left flex flex-col justify-center h-full mockup-reach-panel">
+            <div class="mockup-section-kicker mockup-section-kicker-light">For Experts</div>
             <h2 class="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-6 md:mb-8 leading-tight">Expand your reach as a coach or mentor.</h2>
             <p class="text-white text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed max-w-3xl">Mashoorah offers subscription plans for external professionals, enabling you to guide, connect, and create impact beyond organizational boundaries.</p>
           </div>
         </div>
 
-        <div class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl w-full h-screen rounded-none-important overflow-hidden">
+        <div class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl w-full h-screen rounded-none-important overflow-hidden mockup-journey-grid">
           <div class="w-full h-full grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-0">
             <div class="w-full h-full">
               <img src="./assets/media/coach-and-mentor-side-banner.ccf462d6.webp" alt="Coach Banner" class="w-full h-full object-cover">
             </div>
             <div class="w-full h-full grid grid-rows-2 gap-0">
-              <div class="w-full h-full relative">
+              <div class="w-full h-full relative mockup-journey-card" data-reveal>
                 <img src="./assets/media/join-as-a-coach.706f9af2.png" alt="Right Top" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-black/40 flex flex-col items-start justify-center p-6">
+                <div class="absolute inset-0 bg-black/40 flex flex-col items-start justify-center p-6 mockup-journey-copy">
                   <h3 class="text-white text-lg md:text-2xl font-bold mb-4 leading-snug">Empower growth <br>through structured <br>coaching.</h3>
                   <a
-                    class="Knack_lsFSPB1r Knack_1EnFwjp8 Knack_mKxHLGdQ Knack_DoDoLEQN"
+                    class="Knack_lsFSPB1r Knack_1EnFwjp8 Knack_mKxHLGdQ Knack_DoDoLEQN mockup-primary-cta"
                     href="https://mashoorah.co/login"
                     style="background-color: rgb(237, 127, 61); color: white; border-radius: 9999px; transition: background-color 0.3s; font-weight: 600;"
                   >
@@ -254,12 +288,12 @@ analytics</h3>
                   </a>
                 </div>
               </div>
-              <div class="w-full h-full relative">
+              <div class="w-full h-full relative mockup-journey-card" data-reveal>
                 <img src="./assets/media/become-a-mentor.df6de833.webp" alt="Right Bottom" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-black/40 flex flex-col items-start justify-center p-6">
+                <div class="absolute inset-0 bg-black/40 flex flex-col items-start justify-center p-6 mockup-journey-copy">
                   <h3 class="text-white text-lg md:text-2xl font-bold mb-4 leading-snug">Inspire the next <br>generation through <br>mentorship.</h3>
                   <a
-                    class="Knack_lsFSPB1r Knack_1EnFwjp8 Knack_mKxHLGdQ Knack_DoDoLEQN"
+                    class="Knack_lsFSPB1r Knack_1EnFwjp8 Knack_mKxHLGdQ Knack_DoDoLEQN mockup-primary-cta"
                     href="https://mashoorah.co/login"
                     style="background-color: rgb(237, 127, 61); color: white; border-radius: 9999px; transition: background-color 0.3s; font-weight: 600;"
                   >
@@ -271,8 +305,9 @@ analytics</h3>
           </div>
         </div>
 
-        <section class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl py-20" style="background-color: rgb(252, 234, 224);">
+        <section class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl py-20 mockup-security-section" style="background-color: rgb(252, 234, 224);" data-reveal>
           <div class="max-w-6xl mx-auto px-6 text-left">
+            <div class="mockup-section-kicker">Security</div>
             <h2 class="Knack_IFllW4Hn Knack_-lILIABX Knack_UZQmQ1c6 text-2xl md:text-3xl lg:text-4xl font-bold" style="font-weight: 600; font-size: 2.25rem; line-height: 2rem; margin-bottom: 1.5rem;">Protecting your data, every step of the way.</h2>
             <p class="Knack_mX7OO8UO Knack_UZQmQ1c6 mt-4 text-lg leading-relaxed max-w-3xl">At Mashoorah, your privacy and security come first. Built on AWS SOC 2 Type II, with end-to-end encryption, role-based access &amp; MFA, and SSO via Azure AD, we follow best practices and ensure transparency and security - so you can focus on growth with confidence.</p>
             <div class="mt-10 flex gap-12 flex-wrap">
@@ -281,12 +316,13 @@ analytics</h3>
           </div>
         </section>
 
-        <section class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl py-20" style="background-color: rgb(242, 232, 243);">
+        <section class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl py-20 mockup-experts-section" style="background-color: rgb(242, 232, 243);">
           <div class="max-w-6xl mx-auto px-6 text-left">
+            <div class="mockup-section-kicker" data-reveal>Leadership</div>
             <h2 class="Knack_IFllW4Hn Knack_-lILIABX Knack_UZQmQ1c6 text-2xl md:text-3xl lg:text-4xl font-bold" style="font-weight: 600; font-size: 2.25rem; line-height: 2rem; margin-bottom: 1.5rem;">Meet the experts behind the impact.</h2>
-            <div class="relative overflow-hidden">
+            <div class="relative overflow-hidden" data-reveal>
               <div class="flex transition-transform duration-500 gap-4 justify-center" style="transform: translateX(0%);">
-                <div class="relative flex-none w-full md:w-1/3 group cursor-pointer">
+                <div class="relative flex-none w-full md:w-1/3 group cursor-pointer mockup-expert-card">
                   <div class="relative">
                     <img src="./assets/media/khalid-alkhudairi.adc312ae.webp" alt="Khalid Alkhudairi" class="w-full object-cover">
                     <div class="absolute bottom-0 left-0 right-0 bg-black p-4 text-white flex justify-start gap-2 group-hover:opacity-0 transition-opacity duration-300">
@@ -313,14 +349,16 @@ analytics</h3>
         </section>
 
         <div
-          class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl w-full bg-cover bg-center relative bg-fixed rounded-none-important"
+          class="Knack_7TBM6inN Knack_ocOrVEoF Knack_afJI0pdl w-full bg-cover bg-center relative bg-fixed rounded-none-important mockup-footer-banner"
           style="background-image: url('./assets/media/footer-banner.ccea0f84.webp'); height: 400px;"
+          data-reveal
         >
-          <div class="relative max-w-6xl mx-auto h-full px-6 md:px-8 flex flex-col justify-center items-start">
+          <div class="relative max-w-6xl mx-auto h-full px-6 md:px-8 flex flex-col justify-center items-start mockup-footer-panel">
+            <div class="mockup-section-kicker mockup-section-kicker-light">Ready to begin</div>
             <h2 class="Knack_IFllW4Hn Knack_LM-joQht Knack_UZQmQ1c6 text-white text-2xl md:text-3xl lg:text-4xl font-bold" style="color: white;">Start building the workforce of tomorrow, today.</h2>
             <div class="mt-6">
               <button
-                class="Knack_lsFSPB1r Knack_1EnFwjp8 Knack_mKxHLGdQ Knack_DoDoLEQN"
+                class="Knack_lsFSPB1r Knack_1EnFwjp8 Knack_mKxHLGdQ Knack_DoDoLEQN mockup-primary-cta"
                 type="button"
                 style="background-color: rgb(237, 127, 61); color: white; border-radius: 9999px; transition: background-color 0.3s; font-weight: 600;"
               >
@@ -331,7 +369,7 @@ analytics</h3>
         </div>
       </main>
 
-      <footer class="bg-black text-gray-300 py-16 px-4 sm:px-12 lg:px-24">
+      <footer class="bg-black text-gray-300 py-16 px-4 sm:px-12 lg:px-24 mockup-site-footer">
         <div class="max-w-6xl mx-auto px-6 md:px-8">
           <div class="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-12 gap-y-12 gap-x-8">
             <div class="grid md:col-span-2 lg:col-span-5 gap-y-8">
@@ -372,7 +410,7 @@ analytics</h3>
                   <img src="./assets/media/email-icon-default-state.0a81569e.svg" alt="Email" class="w-10 h-10">
                 </a>
               </div>
-              <div class="mt-auto pt-6 text-xs text-gray-500" style="color: rgb(227, 207, 230);">© 2025 Mashoorah. All rights reserved.</div>
+              <div class="mt-auto pt-6 text-xs text-gray-500" style="color: rgb(227, 207, 230);">&#169; 2025 Mashoorah. All rights reserved.</div>
             </div>
           </div>
         </div>
